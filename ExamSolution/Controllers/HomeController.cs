@@ -23,6 +23,7 @@ namespace ExamSolution.Controllers
             return View();
         }
 
+
         public IActionResult Privacy()
         {
             return View();

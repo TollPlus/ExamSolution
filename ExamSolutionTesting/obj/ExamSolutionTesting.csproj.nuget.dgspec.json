@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Nikhil\\Nikhil\\Nikhil\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj": {}
+    "E:\\NIKHIL\\GITORGS\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj": {}
   },
   "projects": {
-    "D:\\Nikhil\\Nikhil\\Nikhil\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj": {
+    "E:\\NIKHIL\\GITORGS\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Nikhil\\Nikhil\\Nikhil\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj",
+        "projectUniqueName": "E:\\NIKHIL\\GITORGS\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj",
         "projectName": "ExamSolutionTesting",
-        "projectPath": "D:\\Nikhil\\Nikhil\\Nikhil\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj",
-        "packagesPath": "C:\\Users\\nbanuri\\.nuget\\packages\\",
-        "outputPath": "D:\\Nikhil\\Nikhil\\Nikhil\\ExamSolution\\ExamSolutionTesting\\obj\\",
+        "projectPath": "E:\\NIKHIL\\GITORGS\\ExamSolution\\ExamSolutionTesting\\ExamSolutionTesting.csproj",
+        "packagesPath": "C:\\Users\\Nikhil Banuri\\.nuget\\packages\\",
+        "outputPath": "E:\\NIKHIL\\GITORGS\\ExamSolution\\ExamSolutionTesting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nbanuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nikhil Banuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -78,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
