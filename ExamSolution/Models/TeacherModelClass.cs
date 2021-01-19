@@ -13,6 +13,7 @@ namespace ExamSolution.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int TeacherId { get; set; }
         public string TeacherName { get; set; }
+        public string TeacherImage { get; set; }
         [ForeignKey("ClassId")]
         public int ClassId { get; set; }
         public ClassDetailsModel ClassDetailsModel { get; set; }

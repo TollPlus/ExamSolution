@@ -13,6 +13,7 @@ namespace ExamSolution.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int StudentId { get; set; }
         public string StudentName { get; set; }
+        public string StudentImage { get; set; }
         public string Address { get; set; }
         public char Gender { get; set; }
         public char Grade { get; set; }
